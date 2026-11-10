@@ -294,5 +294,9 @@
   "https://mymarketing.click/products/stores": {
     "id": "00f53c91-57cd-46f2-9fd7-657a627b96b0",
     "shortUrl": "https://go.mymarketing.click/pagbr-marketing-stores"
+  },
+  "https://link.mercadopago.com.br/ciromaciel": {
+    "id": "86e7268c-8a9c-43de-8b4b-279e4fef8d04",
+    "shortUrl": "https://go.mymarketing.click/pagbr-apoie"
   }
 }
