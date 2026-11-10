@@ -1,0 +1,462 @@
+{
+    "slug": "awesome-pagamentos-brasil",
+    "campaign": "awesome-pagamentos-brasil",
+    "linkPrefix": "pagbr",
+    "title": "Awesome pagamentos Brasil",
+    "description": "Pagamentos no Brasil para quem integra: normas, gateways, adquirentes, boleto, assinatura, split e antifraude.",
+    "intro": "Para quem vai cobrar dentro de um sistema e precisa escolher como. Começa pelas normas do Banco Central e da Febraban, passa pelos gateways e adquirentes e termina nas bibliotecas abertas de boleto. Cada endereço foi aberto antes de entrar.",
+    "glossary": "Pix, Pix Automático, boleto, CNAB, split, gateway, Febraban, Banco Central and every company name are proper names or local terms; keep them, explaining boleto in parentheses only the first time if needed.",
+    "topics": [
+        "pagamentos",
+        "payments",
+        "gateway",
+        "boleto",
+        "pix",
+        "cartao",
+        "assinatura",
+        "split"
+    ],
+    "categories": [
+        {
+            "id": "normas",
+            "title": "Normas",
+            "description": "O que o Banco Central e a Febraban definem.",
+            "items": [
+                {
+                    "name": "Arranjos de pagamento",
+                    "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+                    "description": "As regras do Banco Central para cartões, carteiras e outros arranjos de pagamento.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Pix",
+                    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+                    "description": "A página oficial do Pix no Banco Central.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Pix Automático",
+                    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+                    "description": "A modalidade de Pix para cobranças recorrentes, com autorização prévia do pagador.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Nova Plataforma de Boletos",
+                    "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+                    "description": "O registro centralizado de boletos da Febraban.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "gateways",
+            "title": "Gateways e subadquirentes",
+            "description": "Cartão, boleto, Pix e assinatura numa API só. Em ordem alfabética.",
+            "items": [
+                {
+                    "name": "Adyen",
+                    "url": "https://docs.adyen.com/",
+                    "description": "Plataforma global de pagamentos, com cartão, Pix e boleto no Brasil.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Asaas",
+                    "url": "https://docs.asaas.com/",
+                    "description": "Cobranças por Pix, boleto e cartão, com assinaturas e split.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "dLocal",
+                    "url": "https://docs.dlocal.com/",
+                    "description": "Pagamentos em mercados emergentes, inclusive o Brasil.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "EBANX",
+                    "url": "https://docs.ebanx.com/",
+                    "description": "Pagamentos locais na América Latina, para empresas de dentro e de fora do Brasil.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Efí",
+                    "url": "https://dev.efipay.com.br/",
+                    "description": "Antiga Gerencianet: Pix, boleto, cartão e carnê por API.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Iugu",
+                    "url": "https://dev.iugu.com/",
+                    "description": "Cobranças, assinaturas e split com Pix, boleto e cartão.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Mercado Pago",
+                    "url": "https://www.mercadopago.com.br/developers/pt/docs",
+                    "description": "Checkout, Pix, cartão, boleto e assinaturas do Mercado Pago.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Pagar.me",
+                    "url": "https://docs.pagar.me/",
+                    "description": "Pagamentos por Pix, cartão e boleto, com recorrência e split.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "PagBank",
+                    "url": "https://developer.pagbank.com.br/",
+                    "description": "Pedidos e cobranças por Pix, cartão e boleto.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Stripe",
+                    "url": "https://docs.stripe.com/payments/boleto",
+                    "description": "Boleto, Pix e cartão na Stripe, com cobrança recorrente pelo Stripe Billing.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Vindi",
+                    "url": "https://vindi.github.io/api-docs/dist/",
+                    "description": "API de cobrança recorrente e assinaturas.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Zoop",
+                    "url": "https://docs.zoop.co/",
+                    "description": "Infraestrutura de pagamentos para marketplaces e plataformas, com split.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "adquirentes",
+            "title": "Adquirentes",
+            "description": "Quem processa o cartão. Em ordem alfabética.",
+            "items": [
+                {
+                    "name": "Cielo",
+                    "url": "https://developercielo.github.io/",
+                    "description": "A documentação para desenvolvedores da Cielo: e-commerce, link de pagamento e maquininha.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Getnet",
+                    "url": "https://developers.getnet.com.br/",
+                    "description": "O portal de desenvolvedores da Getnet.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Rede",
+                    "url": "https://developer.userede.com.br/",
+                    "description": "O portal de desenvolvedores da Rede, do Itaú.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Stone",
+                    "url": "https://docs.stone.com.br/",
+                    "description": "A documentação da Stone para pagamentos e conta.",
+                    "tags": [
+                        "api",
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "antifraude",
+            "title": "Antifraude",
+            "description": "Para barrar pedido fraudado antes de despachar.",
+            "items": [
+                {
+                    "name": "ClearSale",
+                    "url": "https://www.clear.sale/",
+                    "description": "Análise de fraude em pedidos de e-commerce.",
+                    "tags": [
+                        "pago"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "boleto",
+            "title": "Bibliotecas de boleto e CNAB",
+            "description": "Para gerar boleto e remessa sem depender de gateway. Abertas.",
+            "items": [
+                {
+                    "name": "boleto.js",
+                    "url": "https://github.com/guilhermearaujo/boleto.js",
+                    "description": "Renderiza o código de barras de um boleto em SVG, em JavaScript.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Boleto.Net",
+                    "url": "https://github.com/BoletoNet/boletonet",
+                    "description": "Boletos para bancos brasileiros em .NET.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "BoletoNetCore",
+                    "url": "https://github.com/BoletoNet/BoletoNetCore",
+                    "description": "A versão do Boleto.Net para .NET Core.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "BoletoPHP",
+                    "url": "https://github.com/CobreGratis/boletophp",
+                    "description": "Sistema de boletos bancários em PHP, de código aberto.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "brcobranca",
+                    "url": "https://github.com/kivanio/brcobranca",
+                    "description": "Boletos e arquivos de remessa e retorno em Ruby.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "laravel-boleto",
+                    "url": "https://github.com/eduardokum/laravel-boleto",
+                    "description": "Boletos, remessas e retornos em PHP, para vários bancos.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "OpenBoleto",
+                    "url": "https://github.com/openboleto/openboleto",
+                    "description": "Geração de boletos bancários em PHP.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "sdks",
+            "title": "SDKs oficiais",
+            "description": "Mantidos pelos próprios provedores.",
+            "items": [
+                {
+                    "name": "Mercado Pago SDK Node.js",
+                    "url": "https://github.com/mercadopago/sdk-nodejs",
+                    "description": "O SDK oficial do Mercado Pago para Node.js.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Mercado Pago SDK PHP",
+                    "url": "https://github.com/mercadopago/sdk-php",
+                    "description": "O SDK oficial do Mercado Pago para PHP.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Mercado Pago SDK Python",
+                    "url": "https://github.com/mercadopago/sdk-python",
+                    "description": "O SDK oficial do Mercado Pago para Python.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Pagar.me SDK Node.js",
+                    "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+                    "description": "O SDK oficial do Pagar.me para Node.js.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Efí SDK Node.js",
+                    "url": "https://github.com/efipay/sdk-node-apis-efi",
+                    "description": "SDK em Node.js para as APIs da Efí.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Efí SDK PHP",
+                    "url": "https://github.com/efipay/sdk-php-apis-efi",
+                    "description": "SDK em PHP para as APIs da Efí.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Stripe Node.js",
+                    "url": "https://github.com/stripe/stripe-node",
+                    "description": "A biblioteca oficial da Stripe para Node.js.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "do-autor",
+            "title": "Prontos para usar",
+            "description": "Para quem quer cobrar sem integrar um gateway do zero.",
+            "items": [
+                {
+                    "name": "Infrastructure Payments",
+                    "url": "https://myinfrastructure.click/products/payments",
+                    "description": "Cobrança avulsa por Pix e cartão pelo Mercado Pago da sua conta, com REST, SDK React e MCP.",
+                    "tags": [
+                        "api"
+                    ],
+                    "added": "2026-11-10",
+                    "ours": true
+                },
+                {
+                    "name": "Marketing Stores",
+                    "url": "https://mymarketing.click/products/stores",
+                    "description": "Loja online com pagamento por Pix e cartão direto no Mercado Pago do dono.",
+                    "tags": [],
+                    "added": "2026-11-10",
+                    "ours": true
+                }
+            ]
+        },
+        {
+            "id": "outras-listas",
+            "title": "Outras listas",
+            "description": "Listas irmãs.",
+            "items": [
+                {
+                    "name": "Awesome Pix",
+                    "url": "https://github.com/ciro-maciel/awesome-pix",
+                    "description": "Normas, APIs, SDKs e provedores de Pix, em detalhe.",
+                    "tags": [
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Awesome Open Finance Brasil",
+                    "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+                    "description": "Normas, APIs e bibliotecas do Open Finance.",
+                    "tags": [
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        }
+    ]
+}
