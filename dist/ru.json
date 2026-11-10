@@ -1,0 +1,518 @@
+{
+  "slug": "awesome-pagamentos-brasil",
+  "language": "ru",
+  "title": "Awesome pagamentos Brasil",
+  "description": "Платежи в Бразилии для тех, кто интегрирует: нормы, шлюзы, эквайеры, boleto (банковская квитанция), подписка, split и антифрод.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "Нормы",
+      "items": [
+        {
+          "name": "Arranjos de pagamento",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+          "link": "https://go.mymarketing.click/pagbr-arranjos-de-pagamento",
+          "description": "Правила Banco Central для карт, кошельков и других платёжных схем.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pagbr-pix",
+          "description": "Официальная страница Pix на сайте Banco Central.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+          "link": "https://go.mymarketing.click/pagbr-pix-automatico",
+          "description": "Вид Pix для регулярных списаний с предварительного разрешения плательщика.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Nova Plataforma de Boletos",
+          "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+          "link": "https://go.mymarketing.click/pagbr-nova-plataforma-de-boletos",
+          "description": "Централизованный реестр boletos (банковских платёжных документов) от Febraban.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gateways",
+      "title": "Шлюзы и субаквайеры",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/",
+          "link": "https://go.mymarketing.click/pagbr-adyen",
+          "description": "Глобальная платёжная платформа с картами, Pix и boleto в Бразилии.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pagbr-asaas",
+          "description": "Приём платежей через Pix, boleto и карту, с подписками и split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pagbr-dlocal",
+          "description": "Платежи на развивающихся рынках, включая Бразилию.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pagbr-ebanx",
+          "description": "Локальные платежи в Латинской Америке для компаний из Бразилии и из-за её пределов.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-efi",
+          "description": "Бывшая Gerencianet: Pix, boleto, карта и carnê через API.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pagbr-iugu",
+          "description": "Платежи, подписки и split через Pix, boleto и карту.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago",
+          "description": "Checkout, Pix, карта, boleto и подписки от Mercado Pago.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me",
+          "description": "Платежи через Pix, карту и boleto, с регулярными списаниями и split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-pagbank",
+          "description": "Заказы и платежи через Pix, карту и boleto.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/boleto",
+          "link": "https://go.mymarketing.click/pagbr-stripe",
+          "description": "Boleto, Pix и карта в Stripe, с регулярным списанием через Stripe Billing.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Vindi",
+          "url": "https://vindi.github.io/api-docs/dist/",
+          "link": "https://go.mymarketing.click/pagbr-vindi",
+          "description": "API для регулярных списаний и подписок.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Zoop",
+          "url": "https://docs.zoop.co/",
+          "link": "https://go.mymarketing.click/pagbr-zoop",
+          "description": "Платёжная инфраструктура для маркетплейсов и платформ, с split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "adquirentes",
+      "title": "Эквайеры",
+      "items": [
+        {
+          "name": "Cielo",
+          "url": "https://developercielo.github.io/",
+          "link": "https://go.mymarketing.click/pagbr-cielo",
+          "description": "Документация для разработчиков Cielo: e-commerce, платёжная ссылка и терминал.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Getnet",
+          "url": "https://developers.getnet.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-getnet",
+          "description": "Портал разработчиков Getnet.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Rede",
+          "url": "https://developer.userede.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-rede",
+          "description": "Портал разработчиков Rede, от Itaú.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stone",
+          "url": "https://docs.stone.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-stone",
+          "description": "Документация Stone по платежам и счёту.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "antifraude",
+      "title": "Антифрод",
+      "items": [
+        {
+          "name": "ClearSale",
+          "url": "https://www.clear.sale/",
+          "link": "https://go.mymarketing.click/pagbr-clearsale",
+          "description": "Анализ мошенничества в заказах e-commerce.",
+          "tags": [
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "boleto",
+      "title": "Библиотеки для boleto и CNAB",
+      "items": [
+        {
+          "name": "boleto.js",
+          "url": "https://github.com/guilhermearaujo/boleto.js",
+          "link": "https://go.mymarketing.click/pagbr-boleto-js",
+          "description": "Рисует штрихкод boleto в SVG на JavaScript.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Boleto.Net",
+          "url": "https://github.com/BoletoNet/boletonet",
+          "link": "https://go.mymarketing.click/pagbr-boleto-net",
+          "description": "Boleto для бразильских банков на .NET.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoNetCore",
+          "url": "https://github.com/BoletoNet/BoletoNetCore",
+          "link": "https://go.mymarketing.click/pagbr-boletonetcore",
+          "description": "Версия Boleto.Net для .NET Core.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoPHP",
+          "url": "https://github.com/CobreGratis/boletophp",
+          "link": "https://go.mymarketing.click/pagbr-boletophp",
+          "description": "Система банковских boleto на PHP, с открытым кодом.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brcobranca",
+          "url": "https://github.com/kivanio/brcobranca",
+          "link": "https://go.mymarketing.click/pagbr-brcobranca",
+          "description": "Boleto и файлы remessa и retorno на Ruby.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "laravel-boleto",
+          "url": "https://github.com/eduardokum/laravel-boleto",
+          "link": "https://go.mymarketing.click/pagbr-laravel-boleto",
+          "description": "Boleto, remessa и retorno на PHP, для нескольких банков.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenBoleto",
+          "url": "https://github.com/openboleto/openboleto",
+          "link": "https://go.mymarketing.click/pagbr-openboleto",
+          "description": "Генерация банковских бланков boleto на PHP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks",
+      "title": "Официальные SDK",
+      "items": [
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-node-js",
+          "description": "Официальный SDK Mercado Pago для Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-php",
+          "description": "Официальный SDK Mercado Pago для PHP.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-python",
+          "description": "Официальный SDK Mercado Pago для Python.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me SDK Node.js",
+          "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me-sdk-node-js",
+          "description": "Официальный SDK Pagar.me для Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-node-js",
+          "description": "SDK для Node.js для API Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-php",
+          "description": "SDK для PHP для API Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe Node.js",
+          "url": "https://github.com/stripe/stripe-node",
+          "link": "https://go.mymarketing.click/pagbr-stripe-node-js",
+          "description": "Официальная библиотека Stripe для Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "do-autor",
+      "title": "Готовые к использованию",
+      "items": [
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pagbr-infrastructure-payments",
+          "description": "Разовые платежи через Pix и карту через Mercado Pago на вашем аккаунте, с REST, SDK для React и MCP.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pagbr-marketing-stores",
+          "description": "Интернет-магазин с оплатой через Pix и картой напрямую в Mercado Pago владельца.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Другие списки",
+      "items": [
+        {
+          "name": "Awesome Pix",
+          "url": "https://github.com/ciro-maciel/awesome-pix",
+          "link": "https://go.mymarketing.click/pagbr-awesome-pix",
+          "description": "Нормы, API, SDK и провайдеры Pix, подробно.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Awesome Open Finance Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+          "link": "https://go.mymarketing.click/pagbr-awesome-open-finance-brasil",
+          "description": "Нормы, API и библиотеки Open Finance.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "slug": "awesome-pagamentos-brasil",
+  "language": "vi",
+  "title": "Awesome pagamentos Brasil",
+  "description": "Thanh toán ở Brazil cho người tích hợp: quy định, gateway, acquirer, boleto, đăng ký định kỳ, split và chống gian lận.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "Quy định",
+      "items": [
+        {
+          "name": "Arranjos de pagamento",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+          "link": "https://go.mymarketing.click/pagbr-arranjos-de-pagamento",
+          "description": "Quy định của Banco Central về thẻ, ví và các hệ thống thanh toán khác.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pagbr-pix",
+          "description": "Trang chính thức của Pix trên Banco Central.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+          "link": "https://go.mymarketing.click/pagbr-pix-automatico",
+          "description": "Hình thức Pix cho thu tiền định kỳ, có sự cho phép trước của người trả.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Nova Plataforma de Boletos",
+          "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+          "link": "https://go.mymarketing.click/pagbr-nova-plataforma-de-boletos",
+          "description": "Cơ quan đăng ký tập trung các boleto (phiếu thanh toán ngân hàng) của Febraban.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gateways",
+      "title": "Gateway và subadquirentes",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/",
+          "link": "https://go.mymarketing.click/pagbr-adyen",
+          "description": "Nền tảng thanh toán toàn cầu, có thẻ, Pix và boleto tại Brasil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pagbr-asaas",
+          "description": "Thu tiền qua Pix, boleto và thẻ, có đăng ký định kỳ và split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pagbr-dlocal",
+          "description": "Thanh toán tại các thị trường mới nổi, kể cả Brasil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pagbr-ebanx",
+          "description": "Thanh toán nội địa ở Mỹ Latinh, cho doanh nghiệp trong và ngoài Brasil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-efi",
+          "description": "Tên cũ là Gerencianet: Pix, boleto, thẻ và carnê qua API.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pagbr-iugu",
+          "description": "Thu tiền, đăng ký định kỳ và split với Pix, boleto và thẻ.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago",
+          "description": "Checkout, Pix, thẻ, boleto và đăng ký định kỳ của Mercado Pago.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me",
+          "description": "Thanh toán qua Pix, thẻ và boleto, có thu định kỳ và split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-pagbank",
+          "description": "Đơn hàng và thu tiền qua Pix, thẻ và boleto.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/boleto",
+          "link": "https://go.mymarketing.click/pagbr-stripe",
+          "description": "Boleto, Pix và thẻ trên Stripe, thu định kỳ bằng Stripe Billing.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Vindi",
+          "url": "https://vindi.github.io/api-docs/dist/",
+          "link": "https://go.mymarketing.click/pagbr-vindi",
+          "description": "API thu tiền định kỳ và đăng ký.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Zoop",
+          "url": "https://docs.zoop.co/",
+          "link": "https://go.mymarketing.click/pagbr-zoop",
+          "description": "Hạ tầng thanh toán cho marketplace và nền tảng, có split.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "adquirentes",
+      "title": "Adquirentes",
+      "items": [
+        {
+          "name": "Cielo",
+          "url": "https://developercielo.github.io/",
+          "link": "https://go.mymarketing.click/pagbr-cielo",
+          "description": "Tài liệu cho lập trình viên của Cielo: thương mại điện tử, link thanh toán và máy POS.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Getnet",
+          "url": "https://developers.getnet.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-getnet",
+          "description": "Cổng lập trình viên của Getnet.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Rede",
+          "url": "https://developer.userede.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-rede",
+          "description": "Cổng lập trình viên của Rede, thuộc Itaú.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stone",
+          "url": "https://docs.stone.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-stone",
+          "description": "Tài liệu của Stone về thanh toán và tài khoản.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "antifraude",
+      "title": "Chống gian lận",
+      "items": [
+        {
+          "name": "ClearSale",
+          "url": "https://www.clear.sale/",
+          "link": "https://go.mymarketing.click/pagbr-clearsale",
+          "description": "Phân tích gian lận trong đơn hàng thương mại điện tử.",
+          "tags": [
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "boleto",
+      "title": "Thư viện boleto và CNAB",
+      "items": [
+        {
+          "name": "boleto.js",
+          "url": "https://github.com/guilhermearaujo/boleto.js",
+          "link": "https://go.mymarketing.click/pagbr-boleto-js",
+          "description": "Vẽ mã vạch boleto dạng SVG, bằng JavaScript.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Boleto.Net",
+          "url": "https://github.com/BoletoNet/boletonet",
+          "link": "https://go.mymarketing.click/pagbr-boleto-net",
+          "description": "Boleto cho ngân hàng Brasil trong .NET.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoNetCore",
+          "url": "https://github.com/BoletoNet/BoletoNetCore",
+          "link": "https://go.mymarketing.click/pagbr-boletonetcore",
+          "description": "Phiên bản Boleto.Net cho .NET Core.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoPHP",
+          "url": "https://github.com/CobreGratis/boletophp",
+          "link": "https://go.mymarketing.click/pagbr-boletophp",
+          "description": "Hệ thống boleto ngân hàng viết bằng PHP, mã nguồn mở.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brcobranca",
+          "url": "https://github.com/kivanio/brcobranca",
+          "link": "https://go.mymarketing.click/pagbr-brcobranca",
+          "description": "Boleto và file remessa, retorno bằng Ruby.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "laravel-boleto",
+          "url": "https://github.com/eduardokum/laravel-boleto",
+          "link": "https://go.mymarketing.click/pagbr-laravel-boleto",
+          "description": "Boleto, remessa và retorno bằng PHP, cho nhiều ngân hàng.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenBoleto",
+          "url": "https://github.com/openboleto/openboleto",
+          "link": "https://go.mymarketing.click/pagbr-openboleto",
+          "description": "Tạo boleto (phiếu thanh toán ngân hàng) bằng PHP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks",
+      "title": "SDK chính thức",
+      "items": [
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-node-js",
+          "description": "SDK chính thức của Mercado Pago cho Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-php",
+          "description": "SDK chính thức của Mercado Pago cho PHP.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-python",
+          "description": "SDK chính thức của Mercado Pago cho Python.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me SDK Node.js",
+          "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me-sdk-node-js",
+          "description": "SDK chính thức của Pagar.me cho Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-node-js",
+          "description": "SDK Node.js cho các API của Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-php",
+          "description": "SDK PHP cho các API của Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe Node.js",
+          "url": "https://github.com/stripe/stripe-node",
+          "link": "https://go.mymarketing.click/pagbr-stripe-node-js",
+          "description": "Thư viện chính thức của Stripe cho Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "do-autor",
+      "title": "Sẵn sàng sử dụng",
+      "items": [
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pagbr-infrastructure-payments",
+          "description": "Thu tiền một lần qua Pix và thẻ bằng Mercado Pago trong tài khoản của bạn, với REST, SDK React và MCP.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pagbr-marketing-stores",
+          "description": "Cửa hàng trực tuyến nhận thanh toán qua Pix và thẻ trực tiếp trên Mercado Pago của chủ cửa hàng.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Danh sách khác",
+      "items": [
+        {
+          "name": "Awesome Pix",
+          "url": "https://github.com/ciro-maciel/awesome-pix",
+          "link": "https://go.mymarketing.click/pagbr-awesome-pix",
+          "description": "Quy chuẩn, API, SDK và nhà cung cấp Pix, chi tiết.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Awesome Open Finance Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+          "link": "https://go.mymarketing.click/pagbr-awesome-open-finance-brasil",
+          "description": "Quy chuẩn, API và thư viện của Open Finance.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

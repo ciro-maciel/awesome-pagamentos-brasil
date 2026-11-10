@@ -1,0 +1,518 @@
+{
+  "slug": "awesome-pagamentos-brasil",
+  "language": "ja",
+  "title": "Awesome pagamentos Brasil",
+  "description": "ブラジルでの決済（組み込み向け）：規則、ゲートウェイ、アクワイアラー、ボレト（銀行の支払票）、定期課金、スプリット、不正対策。",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "規範",
+      "items": [
+        {
+          "name": "Arranjos de pagamento",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+          "link": "https://go.mymarketing.click/pagbr-arranjos-de-pagamento",
+          "description": "カード、電子財布、その他の決済スキームに関するブラジル中央銀行の規則。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pagbr-pix",
+          "description": "ブラジル中央銀行のPix公式ページ。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+          "link": "https://go.mymarketing.click/pagbr-pix-automatico",
+          "description": "事前に支払人の承認を得る、定期請求向けのPixの方式。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Nova Plataforma de Boletos",
+          "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+          "link": "https://go.mymarketing.click/pagbr-nova-plataforma-de-boletos",
+          "description": "Febrabanによるボレト（銀行払込票）の集中登録。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gateways",
+      "title": "ゲートウェイとサブアクワイアラー",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/",
+          "link": "https://go.mymarketing.click/pagbr-adyen",
+          "description": "カード、Pix、ボレトに対応したブラジルを含むグローバル決済プラットフォーム。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pagbr-asaas",
+          "description": "Pix、ボレト、カードによる請求。サブスクリプションとスプリット付き。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pagbr-dlocal",
+          "description": "新興市場での決済。ブラジルを含む。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pagbr-ebanx",
+          "description": "ラテンアメリカでの現地決済。ブラジル国内外の企業向け。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-efi",
+          "description": "旧Gerencianet：APIによるPix、ボレト、カード、カルネ。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pagbr-iugu",
+          "description": "請求、サブスクリプション、スプリット（Pix、ボレト、カード対応）。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago",
+          "description": "Mercado Pagoのチェックアウト、Pix、カード、ボレト、サブスクリプション。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me",
+          "description": "Pix、カード、ボレトによる決済。定期課金とスプリット付き。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-pagbank",
+          "description": "Pix、カード、ボレトによる注文と請求。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/boleto",
+          "link": "https://go.mymarketing.click/pagbr-stripe",
+          "description": "StripeでのボレトとPix、カード。Stripe Billingによる定期請求付き。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Vindi",
+          "url": "https://vindi.github.io/api-docs/dist/",
+          "link": "https://go.mymarketing.click/pagbr-vindi",
+          "description": "定期請求とサブスクリプションのためのAPI。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Zoop",
+          "url": "https://docs.zoop.co/",
+          "link": "https://go.mymarketing.click/pagbr-zoop",
+          "description": "マーケットプレイスとプラットフォーム向けの決済基盤。スプリット付き。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "adquirentes",
+      "title": "アクワイアラー",
+      "items": [
+        {
+          "name": "Cielo",
+          "url": "https://developercielo.github.io/",
+          "link": "https://go.mymarketing.click/pagbr-cielo",
+          "description": "Cieloの開発者向けドキュメント：ECサイト、決済リンク、POS端末。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Getnet",
+          "url": "https://developers.getnet.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-getnet",
+          "description": "Getnetの開発者ポータル。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Rede",
+          "url": "https://developer.userede.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-rede",
+          "description": "Itaú傘下Redeの開発者ポータル。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stone",
+          "url": "https://docs.stone.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-stone",
+          "description": "Stoneの決済と口座に関するドキュメント。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "antifraude",
+      "title": "不正検知",
+      "items": [
+        {
+          "name": "ClearSale",
+          "url": "https://www.clear.sale/",
+          "link": "https://go.mymarketing.click/pagbr-clearsale",
+          "description": "ECサイトの注文に対する不正分析。",
+          "tags": [
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "boleto",
+      "title": "ボレトとCNABのライブラリ",
+      "items": [
+        {
+          "name": "boleto.js",
+          "url": "https://github.com/guilhermearaujo/boleto.js",
+          "link": "https://go.mymarketing.click/pagbr-boleto-js",
+          "description": "ボレトのバーコードをSVGで描画するJavaScriptライブラリ。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Boleto.Net",
+          "url": "https://github.com/BoletoNet/boletonet",
+          "link": "https://go.mymarketing.click/pagbr-boleto-net",
+          "description": ".NET向けのブラジル銀行用ボレト。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoNetCore",
+          "url": "https://github.com/BoletoNet/BoletoNetCore",
+          "link": "https://go.mymarketing.click/pagbr-boletonetcore",
+          "description": ".NET Core向けのBoleto.Netバージョン。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoPHP",
+          "url": "https://github.com/CobreGratis/boletophp",
+          "link": "https://go.mymarketing.click/pagbr-boletophp",
+          "description": "PHP製のオープンソースな銀行ボレトシステム。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brcobranca",
+          "url": "https://github.com/kivanio/brcobranca",
+          "link": "https://go.mymarketing.click/pagbr-brcobranca",
+          "description": "Rubyでのボレトと送付・返送ファイル。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "laravel-boleto",
+          "url": "https://github.com/eduardokum/laravel-boleto",
+          "link": "https://go.mymarketing.click/pagbr-laravel-boleto",
+          "description": "PHPでのボレトと送付・返送ファイル（複数銀行対応）。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenBoleto",
+          "url": "https://github.com/openboleto/openboleto",
+          "link": "https://go.mymarketing.click/pagbr-openboleto",
+          "description": "PHP에서 은행 보leto 발행 생성 라이브러리 아니라 일본어로: 「ボレート」 발행 — PHPでの銀行ボレート(boleto)発行。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks",
+      "title": "公式SDK",
+      "items": [
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-node-js",
+          "description": "Mercado Pago の Node.js 向け公式SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-php",
+          "description": "Mercado Pago の PHP 向け公式SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-python",
+          "description": "Mercado Pago の Python 向け公式SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me SDK Node.js",
+          "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me-sdk-node-js",
+          "description": "Pagar.me の Node.js 向け公式SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-node-js",
+          "description": "Efí の APIを使うためのNode.js用SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-php",
+          "description": "Efí の APIを使うためのPHP用SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe Node.js",
+          "url": "https://github.com/stripe/stripe-node",
+          "link": "https://go.mymarketing.click/pagbr-stripe-node-js",
+          "description": "Stripe の Node.js 向け公式ライブラリ。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "do-autor",
+      "title": "すぐに使えるもの",
+      "items": [
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pagbr-infrastructure-payments",
+          "description": "Mercado Pago 経由で、Pix とカード払いによる単発請求をあなたのアカウントで行えます。REST、React SDK、MCP に対応。",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pagbr-marketing-stores",
+          "description": "Mercado Pago で、Pix とカード決済を直接受け付けるオンラインストア。店主のアカウントを使用。",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "他のリスト",
+      "items": [
+        {
+          "name": "Awesome Pix",
+          "url": "https://github.com/ciro-maciel/awesome-pix",
+          "link": "https://go.mymarketing.click/pagbr-awesome-pix",
+          "description": "Pix の規格、API、SDK、提供元を詳しく紹介。",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Awesome Open Finance Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+          "link": "https://go.mymarketing.click/pagbr-awesome-open-finance-brasil",
+          "description": "Open Finance の規格、API、ライブラリ。",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

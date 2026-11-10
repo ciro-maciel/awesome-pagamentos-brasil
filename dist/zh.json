@@ -1,0 +1,518 @@
+{
+  "slug": "awesome-pagamentos-brasil",
+  "language": "zh",
+  "title": "Awesome pagamentos Brasil",
+  "description": "巴西支付面向集成者：规范、网关、收单机构、boleto（银行票据）、订阅、split（分账）和反欺诈。",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "规范",
+      "items": [
+        {
+          "name": "Arranjos de pagamento",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+          "link": "https://go.mymarketing.click/pagbr-arranjos-de-pagamento",
+          "description": "Banco Central 关于卡片、电子钱包及其他支付安排的规则。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pagbr-pix",
+          "description": "Banco Central 的 Pix 官方页面。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+          "link": "https://go.mymarketing.click/pagbr-pix-automatico",
+          "description": "Pix 的一种模式，用于定期收费，需付款人事先授权。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Nova Plataforma de Boletos",
+          "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+          "link": "https://go.mymarketing.click/pagbr-nova-plataforma-de-boletos",
+          "description": "Febraban 的 boleto（银行缴费单）集中登记系统。",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gateways",
+      "title": "网关和次级收单方",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/",
+          "link": "https://go.mymarketing.click/pagbr-adyen",
+          "description": "全球支付平台，在巴西支持卡、Pix 和 boleto。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pagbr-asaas",
+          "description": "通过 Pix、boleto 和卡收款，支持订阅和 split。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pagbr-dlocal",
+          "description": "新兴市场的支付服务，包括巴西。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pagbr-ebanx",
+          "description": "拉丁美洲的本地支付服务，适合巴西境内外的企业。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-efi",
+          "description": "前身为 Gerencianet：通过 API 提供 Pix、boleto、卡和 carnê。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pagbr-iugu",
+          "description": "收费、订阅和 split，支持 Pix、boleto 和卡。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago",
+          "description": "Mercado Pago 的结账、Pix、卡、boleto 和订阅。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me",
+          "description": "通过 Pix、卡和 boleto 付款，支持定期扣款和 split。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-pagbank",
+          "description": "通过 Pix、卡和 boleto 处理订单和收款。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/boleto",
+          "link": "https://go.mymarketing.click/pagbr-stripe",
+          "description": "Stripe 的 boleto、Pix 和卡，并通过 Stripe Billing 定期收费。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Vindi",
+          "url": "https://vindi.github.io/api-docs/dist/",
+          "link": "https://go.mymarketing.click/pagbr-vindi",
+          "description": "定期收费和订阅的 API。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Zoop",
+          "url": "https://docs.zoop.co/",
+          "link": "https://go.mymarketing.click/pagbr-zoop",
+          "description": "面向市场平台和平台型业务的支付基础设施，支持 split。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "adquirentes",
+      "title": "收单机构",
+      "items": [
+        {
+          "name": "Cielo",
+          "url": "https://developercielo.github.io/",
+          "link": "https://go.mymarketing.click/pagbr-cielo",
+          "description": "Cielo 的开发者文档：电商、支付链接和 maquininha（POS 机）。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Getnet",
+          "url": "https://developers.getnet.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-getnet",
+          "description": "Getnet 的开发者门户。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Rede",
+          "url": "https://developer.userede.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-rede",
+          "description": "Rede（Itaú 旗下）的开发者门户。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stone",
+          "url": "https://docs.stone.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-stone",
+          "description": "Stone 的支付和账户文档。",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "antifraude",
+      "title": "反欺诈",
+      "items": [
+        {
+          "name": "ClearSale",
+          "url": "https://www.clear.sale/",
+          "link": "https://go.mymarketing.click/pagbr-clearsale",
+          "description": "电商订单的欺诈分析。",
+          "tags": [
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "boleto",
+      "title": "boleto 和 CNAB 库",
+      "items": [
+        {
+          "name": "boleto.js",
+          "url": "https://github.com/guilhermearaujo/boleto.js",
+          "link": "https://go.mymarketing.click/pagbr-boleto-js",
+          "description": "用 JavaScript 将 boleto 的条形码渲染为 SVG。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Boleto.Net",
+          "url": "https://github.com/BoletoNet/boletonet",
+          "link": "https://go.mymarketing.click/pagbr-boleto-net",
+          "description": "适用于 .NET 的巴西银行 boleto 库。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoNetCore",
+          "url": "https://github.com/BoletoNet/BoletoNetCore",
+          "link": "https://go.mymarketing.click/pagbr-boletonetcore",
+          "description": "适用于 .NET Core 的 Boleto.Net 版本。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoPHP",
+          "url": "https://github.com/CobreGratis/boletophp",
+          "link": "https://go.mymarketing.click/pagbr-boletophp",
+          "description": "PHP 开源银行 boleto 系统。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brcobranca",
+          "url": "https://github.com/kivanio/brcobranca",
+          "link": "https://go.mymarketing.click/pagbr-brcobranca",
+          "description": "Ruby 下的 boleto 及 remessa、retorno 文件。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "laravel-boleto",
+          "url": "https://github.com/eduardokum/laravel-boleto",
+          "link": "https://go.mymarketing.click/pagbr-laravel-boleto",
+          "description": "PHP 中的 boleto、remessa 和 retorno，支持多家银行。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenBoleto",
+          "url": "https://github.com/openboleto/openboleto",
+          "link": "https://go.mymarketing.click/pagbr-openboleto",
+          "description": "使用 PHP 生成银行票据（boleto，巴西银行转账单）。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks",
+      "title": "官方 SDK",
+      "items": [
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-node-js",
+          "description": "Mercado Pago 的 Node.js 官方 SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-php",
+          "description": "Mercado Pago 的 PHP 官方 SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-python",
+          "description": "Mercado Pago 的 Python 官方 SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me SDK Node.js",
+          "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me-sdk-node-js",
+          "description": "Pagar.me 的 Node.js 官方 SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-node-js",
+          "description": "Efí API 的 Node.js SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-php",
+          "description": "Efí API 的 PHP SDK。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe Node.js",
+          "url": "https://github.com/stripe/stripe-node",
+          "link": "https://go.mymarketing.click/pagbr-stripe-node-js",
+          "description": "Stripe 的 Node.js 官方库。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "do-autor",
+      "title": "开箱即用",
+      "items": [
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pagbr-infrastructure-payments",
+          "description": "通过您账户中的 Mercado Pago 进行单笔收款，支持 Pix 和信用卡，提供 REST、React SDK 和 MCP。",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pagbr-marketing-stores",
+          "description": "在线商店，买家可通过 Pix 或信用卡付款，款项直接进入店主的 Mercado Pago 账户。",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "其他列表",
+      "items": [
+        {
+          "name": "Awesome Pix",
+          "url": "https://github.com/ciro-maciel/awesome-pix",
+          "link": "https://go.mymarketing.click/pagbr-awesome-pix",
+          "description": "关于 Pix 的标准、API、SDK 和服务提供商，详细介绍。",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Awesome Open Finance Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+          "link": "https://go.mymarketing.click/pagbr-awesome-open-finance-brasil",
+          "description": "Open Finance 的标准、API 和库。",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

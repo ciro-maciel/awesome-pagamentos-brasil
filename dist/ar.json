@@ -1,0 +1,518 @@
+{
+  "slug": "awesome-pagamentos-brasil",
+  "language": "ar",
+  "title": "Awesome pagamentos Brasil",
+  "description": "المدفوعات في البرازيل لمن يدمج الأنظمة: القواعد، والبوابات، والمستحوذون، وبوليتو (boleto)، والاشتراكات، والتقسيم (split)، ومكافحة الاحتيال.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "القواعد",
+      "items": [
+        {
+          "name": "Arranjos de pagamento",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/arranjospagamento",
+          "link": "https://go.mymarketing.click/pagbr-arranjos-de-pagamento",
+          "description": "قواعد Banco Central للبطاقات والمحافظ وترتيبات الدفع الأخرى.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pagbr-pix",
+          "description": "الصفحة الرسمية لـ Pix في Banco Central.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico",
+          "link": "https://go.mymarketing.click/pagbr-pix-automatico",
+          "description": "نوع من Pix للمدفوعات المتكررة، بإذن مسبق من الدافع.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Nova Plataforma de Boletos",
+          "url": "https://portal.febraban.org.br/pagina/3150/1094/pt-br/servicos-novo-plataforma-boletos",
+          "link": "https://go.mymarketing.click/pagbr-nova-plataforma-de-boletos",
+          "description": "السجل المركزي لبوليتو (boleto، وهو فاتورة دفع بنكية) التابع لـ Febraban.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gateways",
+      "title": "البوابات والمعالجات الفرعية",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/",
+          "link": "https://go.mymarketing.click/pagbr-adyen",
+          "description": "منصة دفع عالمية، تشمل البطاقة وPix والبوليتو في البرازيل.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pagbr-asaas",
+          "description": "تحصيل عبر Pix والبوليتو والبطاقة، مع الاشتراكات والتقسيم (split).",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pagbr-dlocal",
+          "description": "مدفوعات في الأسواق الناشئة، ومنها البرازيل.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pagbr-ebanx",
+          "description": "مدفوعات محلية في أمريكا اللاتينية، للشركات داخل البرازيل وخارجها.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-efi",
+          "description": "الاسم السابق Gerencianet: Pix والبوليتو والبطاقة وcarnê عبر API.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pagbr-iugu",
+          "description": "تحصيل واشتراكات وتقسيم (split) مع Pix والبوليتو والبطاقة.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago",
+          "description": "صفحة الدفع وPix والبطاقة والبوليتو والاشتراكات من Mercado Pago.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me",
+          "description": "مدفوعات عبر Pix والبطاقة والبوليتو، مع التكرار والتقسيم.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-pagbank",
+          "description": "الطلبات والتحصيل عبر Pix والبطاقة والبوليتو.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/boleto",
+          "link": "https://go.mymarketing.click/pagbr-stripe",
+          "description": "البوليتو وPix والبطاقة عبر Stripe، مع التحصيل المتكرر بـ Stripe Billing.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Vindi",
+          "url": "https://vindi.github.io/api-docs/dist/",
+          "link": "https://go.mymarketing.click/pagbr-vindi",
+          "description": "API للتحصيل المتكرر والاشتراكات.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Zoop",
+          "url": "https://docs.zoop.co/",
+          "link": "https://go.mymarketing.click/pagbr-zoop",
+          "description": "بنية تحتية للمدفوعات للأسواق الإلكترونية والمنصات، مع التقسيم.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "adquirentes",
+      "title": "المستحوذون على المدفوعات",
+      "items": [
+        {
+          "name": "Cielo",
+          "url": "https://developercielo.github.io/",
+          "link": "https://go.mymarketing.click/pagbr-cielo",
+          "description": "وثائق المطورين لـ Cielo: التجارة الإلكترونية، ورابط الدفع، وجهاز نقاط البيع.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Getnet",
+          "url": "https://developers.getnet.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-getnet",
+          "description": "بوابة المطورين لـ Getnet.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Rede",
+          "url": "https://developer.userede.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-rede",
+          "description": "بوابة المطورين لـ Rede، التابعة لـ Itaú.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stone",
+          "url": "https://docs.stone.com.br/",
+          "link": "https://go.mymarketing.click/pagbr-stone",
+          "description": "وثائق Stone للمدفوعات والحساب.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "antifraude",
+      "title": "مكافحة الاحتيال",
+      "items": [
+        {
+          "name": "ClearSale",
+          "url": "https://www.clear.sale/",
+          "link": "https://go.mymarketing.click/pagbr-clearsale",
+          "description": "تحليل الاحتيال في طلبات التجارة الإلكترونية.",
+          "tags": [
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "boleto",
+      "title": "مكتبات البوليتو وCNAB",
+      "items": [
+        {
+          "name": "boleto.js",
+          "url": "https://github.com/guilhermearaujo/boleto.js",
+          "link": "https://go.mymarketing.click/pagbr-boleto-js",
+          "description": "يرسم الباركود لبوليتو بصيغة SVG، بلغة JavaScript.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Boleto.Net",
+          "url": "https://github.com/BoletoNet/boletonet",
+          "link": "https://go.mymarketing.click/pagbr-boleto-net",
+          "description": "بوليتو للبنوك البرازيلية بلغة .NET.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoNetCore",
+          "url": "https://github.com/BoletoNet/BoletoNetCore",
+          "link": "https://go.mymarketing.click/pagbr-boletonetcore",
+          "description": "نسخة Boleto.Net لـ .NET Core.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "BoletoPHP",
+          "url": "https://github.com/CobreGratis/boletophp",
+          "link": "https://go.mymarketing.click/pagbr-boletophp",
+          "description": "نظام فواتير بنكية (بوليتو) بلغة PHP، مفتوح المصدر.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brcobranca",
+          "url": "https://github.com/kivanio/brcobranca",
+          "link": "https://go.mymarketing.click/pagbr-brcobranca",
+          "description": "بوليتو وملفات الإرسال والعودة بلغة Ruby.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "laravel-boleto",
+          "url": "https://github.com/eduardokum/laravel-boleto",
+          "link": "https://go.mymarketing.click/pagbr-laravel-boleto",
+          "description": "بوليتو وملفات إرسال وعودة بلغة PHP، لعدة بنوك.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenBoleto",
+          "url": "https://github.com/openboleto/openboleto",
+          "link": "https://go.mymarketing.click/pagbr-openboleto",
+          "description": "إنشاء فواتير بنكية (boleto) بلغة PHP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks",
+      "title": "حزم تطوير رسمية (SDK)",
+      "items": [
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-node-js",
+          "description": "حزمة SDK الرسمية من Mercado Pago لـ Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-php",
+          "description": "حزمة SDK الرسمية من Mercado Pago لـ PHP.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pagbr-mercado-pago-sdk-python",
+          "description": "حزمة SDK الرسمية من Mercado Pago لـ Python.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me SDK Node.js",
+          "url": "https://github.com/pagarme/pagarme-nodejs-sdk",
+          "link": "https://go.mymarketing.click/pagbr-pagar-me-sdk-node-js",
+          "description": "حزمة SDK الرسمية من Pagar.me لـ Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-node-js",
+          "description": "حزمة SDK بلغة Node.js لواجهات برمجة تطبيقات Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pagbr-efi-sdk-php",
+          "description": "حزمة SDK بلغة PHP لواجهات برمجة تطبيقات Efí.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe Node.js",
+          "url": "https://github.com/stripe/stripe-node",
+          "link": "https://go.mymarketing.click/pagbr-stripe-node-js",
+          "description": "المكتبة الرسمية من Stripe لـ Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "do-autor",
+      "title": "جاهزة للاستخدام",
+      "items": [
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pagbr-infrastructure-payments",
+          "description": "تحصيل منفرد عبر Pix وبطاقة الائتمان عبر Mercado Pago من حسابك، مع REST وحزمة SDK لـ React وMCP.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pagbr-marketing-stores",
+          "description": "متجر إلكتروني مع دفع عبر Pix وبطاقة الائتمان مباشرة في Mercado Pago الخاص بالمالك.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "قوائم أخرى",
+      "items": [
+        {
+          "name": "Awesome Pix",
+          "url": "https://github.com/ciro-maciel/awesome-pix",
+          "link": "https://go.mymarketing.click/pagbr-awesome-pix",
+          "description": "المعايير وواجهات برمجة التطبيقات وحزم SDK ومزودو Pix، بالتفصيل.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Awesome Open Finance Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-open-finance-brasil",
+          "link": "https://go.mymarketing.click/pagbr-awesome-open-finance-brasil",
+          "description": "المعايير وواجهات برمجة التطبيقات والمكتبات الخاصة بـ Open Finance.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}
